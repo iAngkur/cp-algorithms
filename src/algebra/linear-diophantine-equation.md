@@ -213,6 +213,8 @@ $$x' + y' = x + y + k \cdot \left(\frac{b}{g} - \frac{a}{g}\right) = x + y + k \
 
 If $a < b$, we need to select smallest possible value of $k$. If $a > b$, we need to select the largest possible value of $k$. If $a = b$, all solution will have the same sum $x + y$.
 
+If you find the above "Finding the number of solutions and the solutions in a given interval" section hard to understand, then you can have a look into this *[blog](https://www.cnblogs.com/Rinyo/archive/2012/11/25/2787419.html) (chinese)
+
 ## Practice Problems
 
 * [Spoj - Crucial Equation](http://www.spoj.com/problems/CEQU/)
