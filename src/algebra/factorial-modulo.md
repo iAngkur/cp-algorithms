@@ -16,7 +16,7 @@ But in fractions the factors of $p$ can cancel, and the resulting expression wil
 Thus, formally the task is: You want to calculate $n! \bmod p$, without taking all the multiple factors of $p$ into account that appear in the factorial.
 Imaging you write down the prime factorization of $n!$, remove all factors $p$, and compute the product modulo $p$.
 We will denote this *modified* factorial with $n!_{\%p}$.
-For instance $7!_{\%p} \equiv 1 \cdot 2 \cdot \underbrace{1}_{3} \cdot 4 \cdot 5 \underbrace{2}_{6} \cdot 7 \equiv 2 \bmod 3$.
+For instance $7!_{\%3} \equiv 1 \cdot 2 \cdot \underbrace{1}_{3} \cdot 4 \cdot 5 \underbrace{2}_{6} \cdot 7 \equiv 2 \bmod 3$.
 
 Learning how to effectively calculate this modified factorial allows us to quickly calculate the value of the various combinatorial formulas (for example, [Binomial coefficients](../combinatorics/binomial-coefficients.md)).
 
